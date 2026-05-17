@@ -124,3 +124,104 @@ p{
 footer{
     background-color: black;
 }
+
+@media(max-width:768px){
+
+nav{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+a{
+    font-size: 22px;
+}
+
+.profile{
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+section{
+    padding: 80px 20px;
+}
+
+.message{
+    padding: 20px;
+    height: auto;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.skill-item{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.skill-item i{
+    font-size: 70px;
+}
+
+.skills-icons{
+    gap: 50px;
+}
+
+}
+
+@media(max-width:480px){
+
+a{
+    font-size: 18px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.profile{
+    padding: 30px 10px;
+}
+
+section{
+    padding: 60px 10px;
+}
+
+.skill-item i{
+    font-size: 50px;
+}
+
+}
